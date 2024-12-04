@@ -13,6 +13,19 @@ const Nav = (props) => {
   return (
     <Navbar className="bignav" style={{height: "100vh"}} sticky="top">
       <Row className="nav">
+        <Link to="/" className='logo'>
+          <div className="around-logo">
+            <p className='logo-html'>HTML</p>
+            <p className='logo-css'>CSS</p>
+            <p className='logo-bootstrap'>BOOTSTRAP</p>
+            <p className='logo-javascript'>JAVASCRIPT</p>
+            <p className='logo-name'>Vasileios Altzerinis</p>
+            <p className='logo-react'>REACT.JS</p>
+            <p className='logo-node'>NODE.JS</p>
+            <p className='logo-sql'>SQL</p>
+            <p className='logo-nosql'>NOSQL</p>
+          </div>
+        </Link>
         <Link to="/"><img className='me' style={{borderRadius: "100%"}} src={me} alt="me" /></Link>
         <div className='d-grid'>    
           <Link to="/about"><button>About</button></Link>
